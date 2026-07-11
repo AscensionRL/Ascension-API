@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+# hochgeladene Avatare
+/uploads
+
 # Logs
 logs
 *.log
@@ -35,12 +38,16 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Test-Account (enthält Zugangsdaten)
+test-account.md
+
 # dotenv environment variable files
 .env
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
+sql
 
 # temp directory
 .temp
